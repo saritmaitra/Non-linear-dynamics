@@ -1,20 +1,33 @@
-# Non-Linearity in Econometric Modeling, Vol. 1 - A Practical Approach
-### https://doi.org/10.1007/978-3-032-06462-2
+# Non-Linearity in Econometric Modeling, Vol. 2 - Empirical Applications and Source Code
+### https://doi.org/10.1007/978-3-032-16304-2
 
 ## Publisher: Springer Cham
 Nonlinear models are indispensable in modern finance, yet their reliance on numerical root-finding methods introduces layers of complexity that demand careful attention. This textbook offers a comprehensive and accessible guide to understanding these challenges and applying advanced econometric techniques to real-world financial and economic time series data. Designed for students, professionals, and researchers with a foundational background in statistics, econometrics, and finance, this book bridges the gap between theory and practice. It introduces key concepts progressively, making it suitable for both intermediate and advanced readers. Each chapter is written in clear, approachable language, ensuring that even those with limited prior experience in econometrics can grasp and apply the material effectively. The book is organized into five chapters that progressively guide readers through key concepts in financial time series modeling. 
+
+### Key Topics Include:
+- Fundamentals of Non-Linear Dynamics
+- Endogeneity in Econometric Models
+- Asymmetric Pricing
+- Physics-Inspired Gravity Models in Economics
+- Artificial Intelligence and Machine Learning for Fraud Analytics
+
+With practical examples, source code, and interdisciplinary insights, this volume empowers readers to navigate the complexities of nonlinear econometric modeling and apply cutting-edge techniques to contemporary challenges in finance and trade.
 
 # Chapter Overview
 This book progresses systematically from foundational concepts in nonlinear systems to advanced empirical applications in economics and finance. Each chapter builds practical skills while deepening your understanding of complexity in economic phenomena.
 
 ## Chapter 1: Fundamentals of Nonlinear Dynamics
 This foundational chapter introduces the core principles of nonlinear dynamics and chaos theory, concepts essential for understanding complex economic systems. You'll explore how small changes in initial conditions can produce dramatically different outcomes, a phenomenon critical to financial markets, business cycles, and policy interventions. Key topics include bifurcations, strange attractors, Lyapunov exponents, and sensitivity analysis. Through stochastic differential equations and numerical methods (Euler and Runge-Kutta), you will learn to simulate and analyze nonlinear systems, establishing the mathematical toolkit used throughout the book.
+
 ## Chapter 2: Endogeneity in Econometric Models
 Endogeneity poses one of the most significant challenges in empirical economics, when explanatory variables correlate with the error term, standard regression produces biased, unreliable estimates. This chapter examines common sources: omitted variables, measurement error, and simultaneity. You will master diagnostic tests (Wu-Hausman, Sargan) and solution methods including Instrumental Variables (IV), Two-Stage Least Squares (2SLS), and Generalized Method of Moments (GMM). Practical implementations demonstrate how to identify valid instruments and restore causal inference in economic models.
+
 ## Chapter 3: Asymmetric Price Transmission
 Markets often exhibit asymmetric responses: prices rise quickly when costs increase but fall slowly when costs decrease, a nonlinear behavior with significant implications for consumers, producers, and policymakers. This chapter investigates Asymmetric Price Transmission (APT) in energy and commodity markets using advanced time series techniques. You will implement Vector Autoregression (VAR), Threshold VAR (TVAR), and Markov Regime Switching models to detect, quantify, and forecast regime-dependent pricing dynamics. Practical applications include scenario simulations for policy evaluation.
+
 ## Chapter 4: Physics-Inspired Gravity Model in Economics
 Borrowing from Newton's law of gravitation, the Gravity Model has become a cornerstone of international trade analysis, explaining bilateral trade flows based on economic size and geographic distance. This chapter extends the basic framework to incorporate policy variables (tariffs, trade agreements), cultural factors (common language, colonial ties), and structural features (multilateral resistance). You'll work with panel data methods and Poisson Pseudo-Maximum Likelihood (PPML) estimation to handle zero trade flows and heteroskedasticity. Counterfactual simulations demonstrate how to quantify trade policy impacts and forecast macroeconomic outcomes.
+
 ## Chapter 5: Machine Learning for Economic Anomaly Detection
 Economic and financial systems generate complex, high-dimensional data where traditional statistical methods struggle to identify irregular patterns. This chapter applies AI and machine learning techniques to detect anomalies from fraudulent transactions to structural breaks in economic relationships. You will implement Isolation Forests, Autoencoders, Long Short-Term Memory (LSTM) networks, One-Class Support Vector Machines, and Local Outlier Factor algorithms. Beyond fraud detection, these techniques offer powerful tools for identifying regime changes, outlier events, and nonlinear patterns in economic data, bridging traditional econometrics with modern machine learning.
 
